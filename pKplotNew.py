@@ -82,12 +82,12 @@ def compare(prot):
         sys.exit()
     diffs = OrderedDict(zip(names,difference))
     return diffs
-    """for item in range(len(diffs)):
-        print diffs.items()[item]
-    print "Notable differences:"
-    for item in range(len(diffs)):
-        if abs(diffs.items()[item][1]) >= 4:
-            print diffs.items()[item]"""
+    #for item in range(len(diffs)):
+    #    print diffs.items()[item]
+    #print "Notable differences:"
+    #for item in range(len(diffs)):
+    #    if abs(diffs.items()[item][1]) >= 4:
+    #       print diffs.items()[item]
     #use lines 85-91 to use compare() on its own.
 
 #Gets all of the names of the residues from the pK.outs
